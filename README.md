@@ -2,7 +2,7 @@
 
 ## Description
 
-Ceci est un projet en cours de développement. Actuellement, il est en phase de construction et n'est pas encore complet. Le but de ce projet est [insérer la description du projet ici].
+Ceci est un projet en cours de développement. Actuellement, il est en phase de construction et n'est pas encore complet.
 
 ## État du Projet
 
