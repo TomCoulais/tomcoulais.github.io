@@ -8,10 +8,6 @@ h1{
     color: white !important;
 }
 
-.background-color {
-    background-color: #032030; 
-}
-
 .navbar-brand{
     color: white !important
 }
@@ -24,30 +20,13 @@ h1{
 }
 
 /*IMAGE*/
-.image-container{
-    display: flex;
-    width: 40%;
-    height: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
+
 .imgbox{
     z-index: 1;
 }
 
 /*ANIMATION*/
-.animblob{
-    position: absolute;
-    top: 46%;
-    left: 50%;
-    height: 25vw;
-    width: 28vw;
-    transform: translate(-50%, -50%);
-    background: #003554;
-    animation: animate_blob 8s ease-out infinite;
-}
+
 
 .scroll-down{
     height: 50px;
@@ -88,20 +67,5 @@ h1{
     100%{
         opacity: 0;
         top: 90%;
-    }
-}
-/*Pour blob*/
-@keyframes animate_blob{
-    0%, 100%{
-        border-radius: 55% 45% 55%/ 48% 70% 30% 55%
-    }
-    25%{
-        border-radius: 40% 55% 35% 45% / 93% 50% 48% 30%;
-    }
-    50%{
-        border-radius: 50% 42% 65% 35%/ 90% 40% 74% 60%;
-    }
-    25%{
-        border-radius: 20% 48% 55% 45% / 70% 25% 50% 30%;
     }
 }
